@@ -37,8 +37,13 @@
             </div>
            
             <div id="music">
-                  <audio controls autoplay loop>Your browser does not support the audio element.</audio>
+                  <audio controls id="autoplay" loop>Your browser does not support the audio element.</audio>
             </div>
+            <script>
+                  window.onload = function() {
+                        document.getElementById("autoplay").play();
+                                               }
+            </script>
             <footer>MEOW MEOW</footer>
       </div> 
       
